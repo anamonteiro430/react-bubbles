@@ -27,9 +27,16 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+      A token is a string of cryptic text that is stored on the client-side using local storage or session storage. It tells the server the permissions of the user
+
 - [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
+      use protected routes, only users with permission can access, test the app, implement validation on forms
+
+* [ ] Describe how web servers work.
+      Servers store the code for websites to be shared across the internet at all times. They host our websites. Web servers 'serve' web pages the code.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+      post, get, put, delete
 
 ## Project Set Up
 
@@ -70,8 +77,8 @@ Build a login form to authenticate your users.
 ### Stage 2 - Consuming the API
 
 - [✔] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
-- [ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
-- [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
+- ✔[ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
+- [ ✔] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
 
 ### API Documentation
 

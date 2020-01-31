@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const initialState = {
-	username: '',
-	password: ''
-};
-
 class Login extends React.Component {
 	state = {
 		credentials: {
